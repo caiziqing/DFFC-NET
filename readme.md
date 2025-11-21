@@ -10,7 +10,7 @@ The overall framework for DFFC-NET
 ## Running the code
 Run data_sampling.py to perform background subtraction on the original heatmap data
 
-Run Segmentation.py to perform thresholding on the images after background subtraction to obtain threshold-segmented images, and annotate the segmented images, saving the results to path.
+Run Segmentation.py to perform thresholding on the images after background subtraction to obtain threshold-segmented images, then annotate the segmented images, saving the results to path.
 
 Run Data_process.py to obtain the MT(maximum-normalized temperature-spatial sequence) and CT(the correlation coefficient time sequence)
 

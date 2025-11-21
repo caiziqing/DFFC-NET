@@ -599,8 +599,8 @@ class DFFC(nn.Module):
         return out
 
 if __name__ == "__main__":
-    path_train = '../Data/kongjian_data/train.csv'
-    path_test = '../Data/kongjian_data/test.csv'
+    path_train = '../Data/train.csv'
+    path_test = '../Data/test.csv'
 
     trainLoader = data_Loader(path_train)
     testLoader = data_Loader(path_test)

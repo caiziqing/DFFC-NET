@@ -465,7 +465,7 @@ if __name__ == "__main__":
     net.to(device)
     net.eval()
     label_path = "../path/labelme/data_test"
-    data_path = '../Data/kongjian_data/data_test'
+    data_path = '../Data/data_test'
     save_path = "../Results"
     detect_img(data_path, net, save_path, label_path)
 

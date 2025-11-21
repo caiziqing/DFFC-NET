@@ -288,7 +288,7 @@ def data_process():
     read_data_folder_1 = '../../data_BP/'
     read_binary_folder_1 = '../path/binary/'
     read_binary_label_folder_1 = '../path/labelme/'
-    save_savedir_folder_1 = '../Data/kongjian_data/'
+    save_savedir_folder_1 = '../Data/'
 
     global_data_save = []
 
